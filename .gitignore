@@ -1,0 +1,54 @@
+# Compiled binaries & executables
+*.exe
+*.out
+*.app
+*.dll
+*.so
+*.dylib
+*.o
+*.obj
+
+# Visual Studio
+.vs/
+*.sln
+*.vcxproj
+*.vcxproj.user
+*.vcxproj.filters
+Debug/
+Release/
+x64/
+x86/
+
+# Build directories
+build/
+cmake-build-debug/
+cmake-build-release/
+bin/
+obj/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+*.cmake
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp files
+*.tmp
+*~
+*.bak
+
+# OpenGL libraries (ако су локално)
+glfw*/
+glew*/
+glm*/
+glad/
